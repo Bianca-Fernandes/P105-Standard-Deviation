@@ -1,7 +1,7 @@
 import csv
 import math
 
-with open("C:/Users/91982/OneDrive/Desktop/Python/Project/P105 Standard Deviation/data.csv", newline='')as f:
+with open("data.csv", newline='')as f:
     reader = csv.reader(f)
     file_data = list(reader)
 
